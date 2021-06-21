@@ -72,12 +72,12 @@ ul {
 }
 
 #rodape {
-    padding-top:10px;
+    padding:10px;
     height: 10vh;
     background-color: #535353e3;
     color: white;
 }
 
 .icones {
-    width: 50px;
+    width: 45px;
 }
