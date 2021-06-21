@@ -36,6 +36,9 @@ body {
 }
 
 #conteudo {
+    background-color: rgba(0, 0, 0, 0.149);
+    border: dotted 1px black;
+    margin: 20px;
     height: 82vh;
     color: white;
 }
@@ -44,12 +47,7 @@ p{
     margin: 20px;
     font-size: 20px;
     color: white;
-    line-height: 20px;
-}
-
-.colors {
-    color: #FF4400;
-    font-size: 24px;
+    line-height: 5px;
 }
 
 #rodape {
