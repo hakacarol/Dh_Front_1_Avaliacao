@@ -1,0 +1,75 @@
+/* Respeitar a ordem do html (boa prática) */
+/* Referenciar TODAS as tags (Resete CSS) */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Yanone+Kaffeesatz:wght@300;400;500;600;700&display=swap');
+html * {
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    background-image: url(https://bit.ly/3gPx8YT);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    background-size: 190vh;
+    /* Fixar a imagem de fundo */
+    background-attachment: fixed;
+    /* Cor de fundo da página */
+    /* background-color:#813434; */
+    font-family: Yanone Kaffeesatz, Arial, Helvetica, sans-serif;
+}
+
+#cabecalho {
+    background-color: #383635b6;
+    height: 8vh;
+    color: white;
+}
+
+#frase1 {
+    padding-top:2vh;
+    font-weight: normal;
+}
+
+#frase2 {
+    padding-top:1vh;
+    font-weight: normal;
+}
+
+#conteudo {
+    height: 82vh;
+    /* background-color: rgba(220, 20, 60, 0); */
+    /* background-image: url(https://bit.ly/2TEblLQ); */
+    /* Remover repetição */
+    background-repeat: no-repeat;
+        /* Posicionamento - primeiro valor na vertical e o segundo na horizontal*/
+    background-position: center;
+    /* Altura do conteudo (irá ser visto em aulas futuras) vh: mais responsivo*/
+    /* height: 100vh; */
+    /* Tamanha da imagem (irá ser visto em aulas futuras)*/
+    background-size: 40vh;
+    /* Fixar a imagem de fundo */
+    background-attachment: fixed;
+    color: white;
+}
+
+p{
+    margin: 20px;
+    font-size: 20px;
+    color: white;
+    line-height: 20px;
+}
+
+.colors {
+    color: #FF4400;
+    font-size: 24px;
+}
+
+#rodape {
+    height: 10vh;
+    background-color: #535353e3;
+    color: white;
+}
+
+.icones {
+    width: 50px;
+}
