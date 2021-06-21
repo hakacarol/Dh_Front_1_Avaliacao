@@ -25,12 +25,12 @@ body {
     color: white;
 }
 
-#frase1 {
+.frase1 {
     padding-top:2vh;
     font-weight: normal;
 }
 
-#frase2 {
+.frase2 {
     padding-top:1vh;
     font-weight: normal;
 }
