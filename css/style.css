@@ -37,18 +37,6 @@ body {
 
 #conteudo {
     height: 82vh;
-    /* background-color: rgba(220, 20, 60, 0); */
-    /* background-image: url(https://bit.ly/2TEblLQ); */
-    /* Remover repetição */
-    background-repeat: no-repeat;
-        /* Posicionamento - primeiro valor na vertical e o segundo na horizontal*/
-    background-position: center;
-    /* Altura do conteudo (irá ser visto em aulas futuras) vh: mais responsivo*/
-    /* height: 100vh; */
-    /* Tamanha da imagem (irá ser visto em aulas futuras)*/
-    background-size: 40vh;
-    /* Fixar a imagem de fundo */
-    background-attachment: fixed;
     color: white;
 }
 
@@ -65,6 +53,7 @@ p{
 }
 
 #rodape {
+    padding-top:2vh;
     height: 10vh;
     background-color: #535353e3;
     color: white;
