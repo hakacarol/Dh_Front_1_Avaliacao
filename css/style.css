@@ -27,27 +27,28 @@ body {
     background-color: rgba(0, 0, 0, 0.4);
     border: dotted 1px black;
     margin-top: 20px;
+    margin-bottom: 20px;
     height: 82vh;
     color: white;
     text-align: center;
 }
 
 .frase1 {
-    padding-top:2vh;
+    padding-top:17px;
     font-weight: normal;
 }
 
 .frase2 {
-    padding-top:1vh;
+    padding-top:5px;
     font-weight: normal;
 }
 
 .frase3 {
-    padding-top: 1vh;
-       line-height: 30px;
+    padding-top: 10px;
+    line-height: 30px;
 }
 
-p{
+p {
     margin: 20px;
     font-size: 20px;
     color: white;
@@ -61,7 +62,7 @@ p{
 }
 
 #rodape {
-    padding-top:2vh;
+    padding-top:10px;
     height: 10vh;
     background-color: #535353e3;
     color: white;
