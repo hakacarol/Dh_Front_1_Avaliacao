@@ -12,10 +12,7 @@ body {
     background-position: center center;
     height: 100vh;
     background-size: 190vh;
-    /* Fixar a imagem de fundo */
     background-attachment: fixed;
-    /* Cor de fundo da página */
-    /* background-color:#813434; */
     font-family: Yanone Kaffeesatz, Arial, Helvetica, sans-serif;
 }
 
@@ -23,6 +20,16 @@ body {
     background-color: #383635b6;
     height: 8vh;
     color: white;
+    text-align: center;
+}
+
+#conteudo {
+    background-color: rgba(0, 0, 0, 0.4);
+    border: dotted 1px black;
+    margin: 20px;
+    height: 82vh;
+    color: white;
+    text-align: center;
 }
 
 .frase1 {
@@ -35,12 +42,9 @@ body {
     font-weight: normal;
 }
 
-#conteudo {
-    background-color: rgba(0, 0, 0, 0.149);
-    border: dotted 1px black;
-    margin: 20px;
-    height: 82vh;
-    color: white;
+.frase3 {
+    padding-top:4vh;
+    line-height: 30px;
 }
 
 p{
@@ -48,6 +52,12 @@ p{
     font-size: 20px;
     color: white;
     line-height: 5px;
+}
+
+.lista {
+    font-weight: normal;
+    line-height: 20px;
+    text-align: center;
 }
 
 #rodape {
